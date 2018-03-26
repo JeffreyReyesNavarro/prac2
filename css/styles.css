@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #D0E7EE;
+}
+
+.regformbox{
+	width: 500px;
+	height: 450px;
+	background: #B9D2D8;
+	color: #0C1315;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size: 30px;
+}
+
+.regformbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.regformbox input{
+	width: 40%;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	border: 3px solid #ccc
+}
+
+.button {
+    background-color: #668cff; /* Blue */
+    border: none;
+    color: black;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.cancelbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.submitbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cancelbtn{
+	position: relative;
+	top: 85%;
+	left: 31%;
+}
+
+.submitbtn{
+	position: relative;
+	top: 85%;
+	left: 31.6%;
+}
